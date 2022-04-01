@@ -30,23 +30,23 @@ jobs:
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
           repository: ${{ env.IMAGE_NAME }}
 
-      - name: Build & Push Miniconda to Docker Hub
-        run: |
-          ./miniconda-temurin8-3/build.sh
-          ./miniconda-temurin11-3/build.sh
-          ./miniconda-temurin17-3/build.sh
-          
       - name: Build & Push Miniconda2 to Docker Hub
         run: |
-          ./miniconda2-temurin8-3/build.sh
-          ./miniconda2-temurin11-3/build.sh
-          ./miniconda2-temurin17-3/build.sh
+          ./miniconda2.alpine3.9-ibmjava8-3/build.sh
+          ./miniconda2.alpine3.9-temurin11-3/build.sh
+          ./miniconda2.alpine3.9-temurin17-3/build.sh
+          ./miniconda2.debian8-temurin8-3/build.sh
+          ./miniconda2.debian8-temurin11-3/build.sh
+          ./miniconda2.debian8-temurin17-3/build.sh
           
       - name: Build & Push Miniconda3 to Docker Hub
         run: |
           ./miniconda3-temurin8-3/build.sh
           ./miniconda3-temurin11-3/build.sh
           ./miniconda3-temurin17-3/build.sh
+          ./miniconda3.alpine-ibmjava8-3/build.sh
+          ./miniconda3.alpine-temurin11-3/build.sh
+          ./miniconda3.alpine-temurin17-3/build.sh
 
       - name: Build & Push Miniforge3 to Docker Hub
         run: |

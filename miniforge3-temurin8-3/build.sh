@@ -1,8 +1,8 @@
 #! /usr/bin/env bash
 IMAGE_NAME="cardinal4/conda-mvn"
-TAG_NAME="miniforge3.4.11.0.4-temurin8-3.8"
+TAG_NAME="miniforge3-temurin8-3"
 
-CONDA_IMAGE_TAG="condaforge/miniforge3:4.11.0-4"
+CONDA_IMAGE_TAG="condaforge/miniforge3:4.12.0-0"
 MAVEN_TAG="3.8-eclipse-temurin-8"
 
 set +x

@@ -1,9 +1,9 @@
 #! /usr/bin/env bash
 IMAGE_NAME="cardinal4/conda-mvn"
-TAG_NAME="miniconda.4.7.12-temurin11-3.8"
+TAG_NAME="miniconda2.alpine3.9-temurin17-3"
 
-CONDA_IMAGE_TAG="continuumio/miniconda:4.7.12"
-MAVEN_TAG="3.8-eclipse-temurin-11"
+CONDA_IMAGE_TAG="continuumio/miniconda:4.7.12-alpine"
+MAVEN_TAG="3.8-eclipse-temurin-17-alpine"
 
 set +x
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )

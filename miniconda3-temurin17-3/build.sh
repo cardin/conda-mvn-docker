@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 IMAGE_NAME="cardinal4/conda-mvn"
-TAG_NAME="miniconda3.4.10.3.p1-temurin17-3.8"
+TAG_NAME="miniconda3-temurin17-3"
 
 CONDA_IMAGE_TAG="continuumio/miniconda3:4.10.3p1"
 MAVEN_TAG="3.8-eclipse-temurin-17"
