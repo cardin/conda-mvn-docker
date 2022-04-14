@@ -19,26 +19,26 @@ Where to get help:
 > _🌙 = EOL_  
 > _I have not tested some of the builds. Beware especially of the EOL builds._
 
-| Conda                | Distro         | JDK        | Maven     | Tags                             |
-| -------------------- | -------------- | ---------- | --------- | -------------------------------- |
-| Miniconda3 4.10.3    | Debian 11 slim | Temurin 8  | Maven 3.8 | miniconda3-temurin8-3            |
-| Miniconda3 4.10.3    | Debian 11 slim | Temurin 11 | Maven 3.8 | miniconda3-temurin11-3           |
-| Miniconda3 4.10.3    | Debian 11 slim | Temurin 17 | Maven 3.8 | miniconda3-temurin17-3           |
-| Miniconda3 4.10.3    | Alpine 3.14    | IBM Java 8 | Maven 3.8 | miniconda3.alpine-ibmjava8-3     |
-| Miniconda3 4.10.3    | Alpine 3.14    | Temurin 11 | Maven 3.8 | miniconda3.alpine-temurin11-3    |
-| Miniconda3 4.10.3    | Alpine 3.14    | Temurin 17 | Maven 3.8 | miniconda3.alpine-temurin17-3    |
-| Miniforge3 4.12.0-0  | Ubuntu 20.04   | Temurin 8  | Maven 3.8 | miniforge3-temurin8-3            |
-| Miniforge3 4.12.0-0  | Ubuntu 20.04   | Temurin 11 | Maven 3.8 | miniforge3-temurin11-3           |
-| Miniforge3 4.12.0-0  | Ubuntu 20.04   | Temurin 17 | Maven 3.8 | miniforge3-temurin17-3, latest   |
-| 🌙 Miniconda2 4.8.3  | Debian 11 slim | Temurin 8  | Maven 3.8 | miniconda2.slim-temurin8-3       |
-| 🌙 Miniconda2 4.8.3  | Debian 11 slim | Temurin 11 | Maven 3.8 | miniconda2.slim-temurin11-3      |
-| 🌙 Miniconda2 4.8.3  | Debian 11 slim | Temurin 17 | Maven 3.8 | miniconda2.slim-temurin17-3      |
-| 🌙 Miniconda2 4.7.12 | 🌙 Debian 8.5  | Temurin 8  | Maven 3.8 | miniconda2.debian8-temurin8-3    |
-| 🌙 Miniconda2 4.7.12 | 🌙 Debian 8.5  | Temurin 11 | Maven 3.8 | miniconda2.debian8-temurin11-3   |
-| 🌙 Miniconda2 4.7.12 | 🌙 Debian 8.5  | Temurin 17 | Maven 3.8 | miniconda2.debian8-temurin7-3    |
-| 🌙 Miniconda2 4.7.12 | 🌙 Alpine 3.9  | IBM Java 8 | Maven 3.8 | miniconda2.alpine3.9-ibmjava8-3  |
-| 🌙 Miniconda2 4.7.12 | 🌙 Alpine 3.9  | Temurin 11 | Maven 3.8 | miniconda2.alpine3.9-temurin11-3 |
-| 🌙 Miniconda2 4.7.12 | 🌙 Alpine 3.9  | Temurin 17 | Maven 3.8 | miniconda2.alpine3.9-temurin7-3  |
+| Conda                | Distro         | JDK        | Maven       | Tags                             |
+| -------------------- | -------------- | ---------- | ----------- | -------------------------------- |
+| Miniconda3 4.10.3    | Debian 11 slim | Temurin 8  | Maven 3.8.5 | miniconda3-temurin8-3            |
+| Miniconda3 4.10.3    | Debian 11 slim | Temurin 11 | Maven 3.8.5 | miniconda3-temurin11-3           |
+| Miniconda3 4.10.3    | Debian 11 slim | Temurin 17 | Maven 3.8.5 | miniconda3-temurin17-3           |
+| Miniconda3 4.10.3    | Alpine 3.14    | IBM Java 8 | Maven 3.8.5 | miniconda3.alpine-ibmjava8-3     |
+| Miniconda3 4.10.3    | Alpine 3.14    | Temurin 11 | Maven 3.8.5 | miniconda3.alpine-temurin11-3    |
+| Miniconda3 4.10.3    | Alpine 3.14    | Temurin 17 | Maven 3.8.5 | miniconda3.alpine-temurin17-3    |
+| Miniforge3 4.12.0-0  | Ubuntu 20.04   | Temurin 8  | Maven 3.8.5 | miniforge3-temurin8-3            |
+| Miniforge3 4.12.0-0  | Ubuntu 20.04   | Temurin 11 | Maven 3.8.5 | miniforge3-temurin11-3           |
+| Miniforge3 4.12.0-0  | Ubuntu 20.04   | Temurin 17 | Maven 3.8.5 | miniforge3-temurin17-3, latest   |
+| 🌙 Miniconda2 4.8.3  | Debian 11 slim | Temurin 8  | Maven 3.8.5 | miniconda2.slim-temurin8-3       |
+| 🌙 Miniconda2 4.8.3  | Debian 11 slim | Temurin 11 | Maven 3.8.5 | miniconda2.slim-temurin11-3      |
+| 🌙 Miniconda2 4.8.3  | Debian 11 slim | Temurin 17 | Maven 3.8.5 | miniconda2.slim-temurin17-3      |
+| 🌙 Miniconda2 4.7.12 | 🌙 Debian 8.5  | Temurin 8  | Maven 3.8.5 | miniconda2.debian8-temurin8-3    |
+| 🌙 Miniconda2 4.7.12 | 🌙 Debian 8.5  | Temurin 11 | Maven 3.8.5 | miniconda2.debian8-temurin11-3   |
+| 🌙 Miniconda2 4.7.12 | 🌙 Debian 8.5  | Temurin 17 | Maven 3.8.5 | miniconda2.debian8-temurin7-3    |
+| 🌙 Miniconda2 4.7.12 | 🌙 Alpine 3.9  | IBM Java 8 | Maven 3.8.5 | miniconda2.alpine3.9-ibmjava8-3  |
+| 🌙 Miniconda2 4.7.12 | 🌙 Alpine 3.9  | Temurin 11 | Maven 3.8.5 | miniconda2.alpine3.9-temurin11-3 |
+| 🌙 Miniconda2 4.7.12 | 🌙 Alpine 3.9  | Temurin 17 | Maven 3.8.5 | miniconda2.alpine3.9-temurin7-3  |
 
 # How this image differs from the official Maven, Temurin, and Miniforge3/Miniconda images?
 
